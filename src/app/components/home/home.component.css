@@ -3,6 +3,7 @@ main {
     flex-direction: column;
     gap: 84px;
     padding: 0 100px;
+    padding-top: calc(66px + 84px);
 }
 
 .main-section {
