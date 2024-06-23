@@ -2,10 +2,12 @@
 :root {
     --primary-color: #52896A;
     --secondary-color: #295E41;
+    --tertiary-color: #77654B;
     --light-primary-color: #89B39C;
 
     --primary-text-color: #0E341F;
     --secondary-text-color: #475569;
 
     --box-color: #EFF0EF;
+    --body-color: #F8F6F4;
 }

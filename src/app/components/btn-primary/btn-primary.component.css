@@ -1,0 +1,17 @@
+button {
+    background: var(--tertiary-color);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 8px 25px;
+    border-radius: 40px;
+    color: var(--body-color);
+    transition: 0.8s all ease;
+}
+
+button:hover {
+    color: var(--tertiary-color);
+    background: var(--body-color);
+}
