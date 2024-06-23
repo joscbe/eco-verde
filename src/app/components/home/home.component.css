@@ -34,10 +34,16 @@ main {
         color: var(--secondary-text-color);
     }
 
-.info-section {
+.solution-section {
     display: flex;
     flex-direction: column;
 }
+
+    .solution-section .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
 
 .pretitle {
     font-size: 16px;
@@ -62,11 +68,13 @@ main {
     margin-bottom: 16px;
 }
 
-.grid-container {
+.impact-section .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 32px;
 }
+
 
 @media (min-width: 1080px) {
     .main-section {
