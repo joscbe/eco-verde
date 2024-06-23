@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     /* border-bottom: 1px solid var(--light-primary-color); */
-    padding: 10px 100px;
+    padding: 10px 0px;
 }
 
     .app-header .logo {
