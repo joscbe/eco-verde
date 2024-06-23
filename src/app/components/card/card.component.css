@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #EFF0EF;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+    .card .icone {
+        margin-top: 16px;
+    }
+
+    .card h2 {
+        color: var(--primary-text-color);
+        font-size: 26px;
+        font-weight: bold;
+        margin: 8px 0;
+    }
+
+    .card p {
+        color: var(--secondary-text-color);
+        line-height: 32px;
+    }
+
+    .card .learn-more {
+        text-transform: capitalize;
+        color: #1178E5;
+        font-size: 20px;
+        font-weight: bold;
+        width: fit-content;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        text-align: left;
+        margin: 8px 0;
+    }
