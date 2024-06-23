@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 @import url('./colors.css');
 
+body {
+    background: #F8F6F4;
+}
+
 * {
     margin: 0;
     padding: 0;

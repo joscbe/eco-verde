@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 84px;
-    padding: 0 70px;
+    padding: 0 100px;
 }
 
 .main-section {
@@ -33,6 +33,40 @@ main {
         font-weight: 400;
         color: var(--secondary-text-color);
     }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.pretitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.title {
+    color: var(--primary-text-color);
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.descricao {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 32px;
+    width: 50%;
+    margin-bottom: 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
 
 @media (min-width: 1080px) {
     .main-section {
