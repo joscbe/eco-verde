@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-text-color);
+    color: var(--body-color);
+    padding: 64px 100px;
+    margin-top: 32px;
+}
+
+.icone-social img {
+    margin: 24px 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+    .info p {
+        color: #B6B6B6;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .info span {
+        font-size: 14px;
+        color: #5E5E5E;
+    }
+
+        .info span b {
+            color: #B6B6B6;
+        }

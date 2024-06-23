@@ -8,6 +8,7 @@ import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-
 import { InputComponent } from '../input/input.component';
 import { TextareaComponent } from '../textarea/textarea.component';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,8 @@ import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
     ElementorComponent,
     InputComponent,
     TextareaComponent,
-    BtnPrimaryComponent
+    BtnPrimaryComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
