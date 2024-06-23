@@ -11,7 +11,7 @@
     <section class="impact-section">
         <h4 class="pretitle">IMPACTOS</h4>
         <h1 class="title">Um Futuro em Risco</h1>
-        <p class="descricao">Nossa falta de ação em relação aos tópicos de sustentabilidade apresentados anteriormente pode gerar consequências graves e irreversíveis para o planeta e para a sociedade humana.</p>
+        <p class="descricao">Nossa falta de ação em relação a sustentabilidade pode gerar consequências graves e irreversíveis para o planeta e para a sociedade humana.</p>
 
         <div class="grid-container">
             <app-elementor
@@ -85,6 +85,42 @@
                 title="Água"
                 text="Defenda a preservação dos rios, nascentes e matas ciliares, combatendo o desmatamento, a poluição e o uso inadequado da água."
             />
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h4 class="pretitle">CONTATO</h4>
+        <h1 class="title">Fale conosco e tire suas dúvidas</h1>
+        <p class="descricao">Estamos à disposição para te ajudar com qualquer dúvida ou solicitação. Entre em contato conosco por telefone, e-mail ou através do nosso formulário de contato.</p>
+
+        <div class="row">
+            <div class="info col-lg-6 col-12">
+                <h2>Informações de Contato :</h2>
+
+                
+                <h5><fa-icon  [icon]="faEnvelope"/>Exemplo&commat;Exemplo.com</h5>
+                <h5><fa-icon  [icon]="faPhone"/>+123 456 789</h5>
+                <h5><fa-icon  [icon]="faLocationDot"/>Rua Camucé - Cidade Nova - 15</h5>
+            </div>
+            <form class="col-lg-6 col-12" action="">
+                <div class="row">
+                    <div class="col-lg-6 col-12 mb-3">
+                        <app-input type="text" placeholder="nome" />
+                    </div>
+                    <div class="col-lg-6 col-12 mb-3">
+                        <app-input type="text" placeholder="sobrenome" />
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <app-input type="text" placeholder="email"/>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <app-textarea rows="6" placeholder="mensagem"/>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </section>
 </main>
