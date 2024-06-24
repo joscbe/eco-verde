@@ -1,7 +1,7 @@
 # EcoVerde
 ![Typescript](https://img.shields.io/badge/typescript-%233776AB.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![Angular](https://img.shields.io/badge/angular-DD0031?style=for-the-badge&logo=angular)&nbsp;
-![Bootstrap](https://img.shields.io/badge/bootstrap-563D7C?style=for-the-badge&logo=bootstrap)&nbsp;
+![Bootstrap](https://img.shields.io/badge/bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
 ## Sobre o projeto
 
