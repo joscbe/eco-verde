@@ -1,27 +1,46 @@
-# Sustentabilidade
+# EcoVerde
+![Typescript](https://img.shields.io/badge/typescript-%233776AB.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
+![Angular](https://img.shields.io/badge/angular-DD0031?style=for-the-badge&logo=angular)&nbsp;
+![Bootstrap](https://img.shields.io/badge/bootstrap-563D7C?style=for-the-badge&logo=bootstrap)&nbsp;
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+## Sobre o projeto
 
-## Development server
+Página Landing Page informativa sobre mudanças climáticas, Desmatamento, crise alimentar, crise energética, poluição, crise hídrica e seus impactos, com dicas para reduzir sua pegada de carbono e viver de forma mais sustentável. Aprenda como reduzir seu impacto ambiental com nossa página Landing Page informativa!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Objetivo
 
-## Code scaffolding
+Informar a atual situação do planeta e orientar, quanto a ação que as pessoas podem tomar para contribuir para um futuro melhor.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Dependências
 
-## Build
+- Angular 17
+- Bootstrap
+- FontAfontawesome
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Preparação de ambiente
 
-## Running unit tests
+Instale as depêndencias com:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm install
+```
 
-## Running end-to-end tests
+## Rode o projeto com:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+npm start
+```
 
-## Further help
+## Telas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Seção inicial
+![Inicial](https://github.com/joscbe/eco-verde/assets/69938145/39ca5dcb-aa59-487f-ba99-d817cb22161d)
+
+### Seção impactos ambientais
+![Impactos](https://github.com/joscbe/eco-verde/assets/69938145/370fac5e-9d91-4e1c-ae82-8f267004c17c)
+
+### Seção Soluções
+![Soluções](https://github.com/joscbe/eco-verde/assets/69938145/c8f224c3-dcaf-49c3-91e2-9696f8e5f560)
+
+### Seção Contato
+![Contato](https://github.com/joscbe/eco-verde/assets/69938145/4795b9d7-bf35-45ab-bf08-86e9076fdc4c)
